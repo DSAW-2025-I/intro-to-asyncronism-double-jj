@@ -31,3 +31,4 @@
 | Calidad del código     | 1.5     |
 | Funcionalidad      | 1.5      |
 
+JOSE DAVID MARMOLEJO LOZANO Y JULIAN PEDRAZA
