@@ -1,6 +1,4 @@
-/* ==================== */
 /* Variables Globales   */
-/* ==================== */
 :root {
     --primary-color: #ff6347;
     --secondary-color: #3b4cca;
@@ -8,9 +6,7 @@
     --background-modal: rgba(0, 0, 0, 0.8);
 }
 
-/* ==================== */
 /* Estilos generales    */
-/* ==================== */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -48,10 +44,7 @@ fieldset {
 }
 
 
-
-/* ============================ */
 /* Contenedor de búsqueda       */
-/* ============================ */
 
 #search-container {
     margin-bottom: 20px;
@@ -88,10 +81,7 @@ button:hover:not(:disabled) {
     background-color: var(--button-hover);
 }
 
-/* ============================ */
 /* Tarjetas de Pokémon          */
-/* ============================ */
-
 #pokemon-container {
     display: flex;
     flex-wrap: wrap;
@@ -155,9 +145,7 @@ button:hover:not(:disabled) {
 }
 
 
-/* ============================ */
 /* Estilos del modal            */
-/* ============================ */
 .modal {
     display: none;
     position: fixed;
@@ -199,7 +187,7 @@ button:hover:not(:disabled) {
     align-items: center;
 }
 
-/* Columna izquierda (Nombre, imagen, estadísticas) */
+/*(Nombre, imagen, estadísticas) */
 .modal-left {
     display: flex;
     flex-direction: column;
@@ -218,7 +206,7 @@ button:hover:not(:disabled) {
     height: auto;
 }
 
-/* Estadísticas (debajo de la imagen) */
+/*Estadísticas */
 .stats {
     display: flex;
     flex-direction: column;
@@ -227,7 +215,7 @@ button:hover:not(:disabled) {
     font-size: 18px;
 }
 
-/* Columna derecha (Descripción y tipos) */
+/*(Descripción y tipos) */
 .modal-right {
     width: 60%;
     display: flex;
@@ -254,10 +242,8 @@ button:hover:not(:disabled) {
 
 
 
-
-/* ============================ */
 /* Botones de navegación        */
-/* ============================ */
+
 .nav-btn {
     position: relative;
     top: 50%;
@@ -292,9 +278,8 @@ button:hover:not(:disabled) {
     display: block;
 }
 
-/* ============================ */
 /* Mensajes de error            */
-/* ============================ */
+
 .error-message {
     color: red;
     font-weight: bold;
@@ -304,7 +289,6 @@ button:hover:not(:disabled) {
 
 #loader {
     display: none;
-    /* Oculto por defecto */
     margin: 20px auto;
     width: 50px;
     height: 50px;
@@ -324,10 +308,6 @@ button:hover:not(:disabled) {
     }
 }
 
-
-/* ============================ */
-/* Ajustes Responsive Mejorados */
-/* ============================ */
 
 /* Celulares (320px a 767px) */
 
@@ -480,7 +460,6 @@ button:hover:not(:disabled) {
     /* Estilos para los mensajes de la IA */
     .chatbot-messages .bot-message {
         background: #ebebeb;
-        /* Gris claro */
         color: black;
         padding: 8px;
         border-radius: 10px;
@@ -639,7 +618,6 @@ button:hover:not(:disabled) {
 
     .chatbot-messages .user-message {
         background: #dcf8c6;
-        /* Verde claro, estilo WhatsApp */
         color: black;
         padding: 8px;
         border-radius: 10px;
@@ -652,7 +630,6 @@ button:hover:not(:disabled) {
     /* Estilos para los mensajes de la IA */
     .chatbot-messages .bot-message {
         background: #ebebeb;
-        /* Gris claro */
         color: black;
         padding: 8px;
         border-radius: 10px;
@@ -713,13 +690,11 @@ button:hover:not(:disabled) {
 
     .pokemon-img {
         max-width: 120px;
-        /* Tamaño de la imagen */
     }
 
     .type-container {
         justify-content: center;
         gap: 10px;
-        /* Espacio entre íconos de tipo */
     }
 
     .type-icon {
@@ -733,7 +708,6 @@ button:hover:not(:disabled) {
         width: 20px;
         height: 30px;
         font-size: 18px;
-        /* Tamaño del ícono de cierre */
     }
 
     .nav-btn {
@@ -743,11 +717,8 @@ button:hover:not(:disabled) {
 
     .description-container {
         font-size: 16px;
-        /* Tamaño de fuente más pequeño */
         line-height: 1.4;
-        /* Espaciado entre líneas */
         text-align: center;
-        /* Centrar el texto */
     }
     /* Estilo de la burbuja flotante */
     .chatbot-bubble {
@@ -808,7 +779,6 @@ button:hover:not(:disabled) {
 
     .chatbot-messages .user-message {
         background: #dcf8c6;
-        /* Verde claro, estilo WhatsApp */
         color: black;
         padding: 8px;
         border-radius: 10px;
@@ -821,7 +791,6 @@ button:hover:not(:disabled) {
     /* Estilos para los mensajes de la IA */
     .chatbot-messages .bot-message {
         background: #ebebeb;
-        /* Gris claro */
         color: black;
         padding: 8px;
         border-radius: 10px;
