@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6QZJ74rp)
 # Desarrollo de Aplicaciones Web
 ## Introducción al Asíncronismo
 
@@ -29,4 +30,9 @@
 | Diseño             | 1       |
 | Calidad del código     | 1.5     |
 | Funcionalidad      | 1.5      |
+
+JOSE DAVID MARMOLEJO LOZANO Y JULIAN ANDRES PEDRAZA PADILLA
+
+![image](https://github.com/user-attachments/assets/5cb64f5f-2ed7-4b85-8886-022811565334)
+https://dsaw-2025-i.github.io/intro-to-asyncronism-double-jj/
 

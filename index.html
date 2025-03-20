@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pokédex</h1>
+        <nav>
+            <form class="search-container">
+                <fieldset class="search-group">
+                    <label for="search-name">Nombre:</label>
+                    <input type="text" id="search-name" placeholder="Buscar por nombre">
+                    <button id="search-name-btn" type="button">Buscar</button>
+                </fieldset>
+
+                <fieldset class="search-group">
+                    <label for="search-number">Número:</label>
+                    <input type="number" id="search-number" placeholder="Buscar por número">
+                    <button id="search-number-btn" type="button">Buscar</button>
+                </fieldset>
+
+                <fieldset class="search-group">
+                    <label for="search-type">Tipo:</label>
+                    <select id="search-type">
+                        <option value="">Buscar por tipo</option>
+
+                    </select>
+                    <button id="search-type-btn" type="button">Buscar</button>
+                </fieldset>
+            </form>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div id="error-message" class="error" hidden>Pokémon no encontrado.</div>
+            <div id="loader"></div> <!-- Loader -->
+            <div id="pokemon-container" class="pokemon-grid"></div>
+        </section>
+    </main>
+
+    <aside>
+        <!-- Burbuja flotante -->
+        <button id="chatbot-bubble" class="chatbot-bubble" aria-label="Abrir chatbot">💬</button>
+
+        <!-- Chatbot -->
+        <section id="chatbot-container" class="chatbot-container" hidden>
+            <header class="chatbot-header">
+                <h2>🤖 Chatbot Pokémon</h2>
+                <button id="close-chatbot" aria-label="Cerrar chatbot">X</button>
+            </header>
+            <div id="chatbot-messages" class="chatbot-messages"></div>
+            <form>
+                <input type="text" id="chatbot-input" placeholder="Escribe tu pregunta...">
+                <button id="chatbot-send" type="button">Enviar</button>
+            </form>
+        </section>
+    </aside>
+
+    <footer>
+        <button id="load-more">Cargar más</button>
+        <button id="volver-inicio" hidden>Volver al inicio</button>
+    </footer>
+
+    <!-- Modal para detalles del Pokémon -->
+    <dialog id="pokemon-modal" class="modal">
+        <article id="pokemon-details" class="modal-content"></article>
+        <button class="close-modal" aria-label="Cerrar modal">X</button>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
