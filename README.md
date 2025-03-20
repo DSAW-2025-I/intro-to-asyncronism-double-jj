@@ -32,3 +32,7 @@
 | Funcionalidad      | 1.5      |
 
 JOSE DAVID MARMOLEJO LOZANO Y JULIAN PEDRAZA
+
+![image](https://github.com/user-attachments/assets/5cb64f5f-2ed7-4b85-8886-022811565334)
+https://dsaw-2025-i.github.io/intro-to-asyncronism-double-jj/
+
